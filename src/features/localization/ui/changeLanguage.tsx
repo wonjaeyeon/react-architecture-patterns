@@ -28,7 +28,7 @@ const ChangeLanguage: React.FC = () => {
 					</span>
                 </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
+            <DropdownMenuContent align="start">
                 <DropdownMenuRadioGroup
                     value={i18n.language}
                     onValueChange={language => changeLanguage(language)}

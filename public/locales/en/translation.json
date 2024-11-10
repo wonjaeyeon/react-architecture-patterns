@@ -1,4 +1,11 @@
 {
+	"header": {
+		"navbar": {
+			"Home": "Home",
+			"Static": "Static",
+			"Dynamic": "Dynamic"
+		}
+	},
 	"header.navbar.Home": "Home",
 	"header.navbar.Static": "Static",
 	"header.navbar.Dynamic": "Dynamic",

@@ -6,7 +6,9 @@ import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 
 const Header: React.FC = () => {
+
 	const [pageID, setPageID] = useState<number>(0);
+
 	const { id } = useParams();
 
 	const { t } = useTranslation();
@@ -24,35 +26,37 @@ const Header: React.FC = () => {
 	}, []);
 
 	return (
-		<header className="flex flex-col py-2">
-			<div className="flex justify-between items-center">
-				<div className="h-[32px] flex justify-center">
-					<img src="/img/logo.png" alt="logo" />
-				</div>
+		<header className="flex items-center justify-between p-2 h-12 bg-gray-800">
+			{/* 로고 섹션 */}
+			<div className="flex items-center gap-4">
+				{/*<img src="/img/logo.png" alt="logo" className="h-8" />*/}
 				<div className="flex gap-2">
 					<ChangeLanguage />
 					<ChangeTheme />
 				</div>
 			</div>
-			<nav className="flex justify-center">
+
+			{/* 네비게이션 */}
+			<nav className="flex gap-4">
 				<Button variant="link" asChild>
-					<Link to="/" className="text-lg">
+					<Link to="/" className="text-sm text-white">
 						{t('header.navbar.Home')}
 					</Link>
 				</Button>
 				<Button variant="link" asChild>
-					<Link to="/custom" className="text-lg">
+					<Link to="/custom" className="text-sm text-white">
 						{t('header.navbar.Static')}
 					</Link>
 				</Button>
 				<Button variant="link" onClick={() => handleClick()} asChild>
-					<Link to={`/custom/${pageID}`} className="text-lg">
+					<Link to={`/custom/${pageID}`} className="text-sm text-white">
 						{t('header.navbar.Dynamic')}
 					</Link>
 				</Button>
 			</nav>
 		</header>
 	);
+
 };
 
 export { Header };
