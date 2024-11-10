@@ -1,0 +1,18 @@
+{
+	"header.navbar.Home": "Home",
+	"header.navbar.Static": "Static",
+	"header.navbar.Dynamic": "Dynamic",
+	"header.themeToggle.Dark": "Dark",
+	"header.themeToggle.Light": "Light",
+	"header.themeToggle.System": "System",
+	"header.langToggle.ChangeLanguage": "Change language",
+	"footer.text.Author": "made by praesidi",
+	"homePage.button.Count": "Count",
+	"homePage.title": "FSD Template",
+	"staticRoutePage.title": "Page With Static Route",
+	"dynamicRoutePage.title": "Page With Dynamic Route",
+	"homePage.tex": "How many points could you give Frieren for her moves?",
+	"staticRoutePage.text": "It's sick, isn't it?",
+	"dynamicRoutePage.text": "Click the page's link in navbar to reach power as Mob did",
+	"error.video.Placeholder": "Unfortunately, your browser does not support the video tag ;("
+}

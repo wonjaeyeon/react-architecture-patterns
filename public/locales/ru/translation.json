@@ -1,0 +1,18 @@
+{
+	"header.navbar.Home": "Главная",
+	"header.navbar.Static": "Статический путь",
+	"header.navbar.Dynamic": "Динамический путь",
+	"header.themeToggle.Dark": "Темная",
+	"header.themeToggle.Light": "Светлая",
+	"header.themeToggle.System": "Системная",
+	"header.langToggle.ChangeLanguage": "Поменять язык",
+	"footer.text.Author": "сделано praesidi",
+	"homePage.button.Count": "Счет",
+	"homePage.title": "FSD шаблон",
+	"staticRoutePage.title": "Страница со статическим путем",
+	"dynamicRoutePage.title": "Страница с динамическим путем",
+	"homePage.text": "На сколько баллов оцените движения Фрирен?",
+	"staticRoutePage.text": "Круто, не так ли?",
+	"dynamicRoutePage.text": "Кликните на ссылку в меню навигации, чтобы получить силу, как это сделал Моб",
+	"error.video.Placeholder": "К сожалению, ваш браузер не поддерживает видео ;("
+}
